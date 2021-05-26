@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/designcard"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="20dp"
+     android:background="#F0F0F0"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#F0F0F0"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="@font/font1"
+            android:text="companyname"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+
+
+
+</androidx.cardview.widget.CardView>

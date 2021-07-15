@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/company"
+        android:title="company"
+        android:icon="@drawable/ic_enterprise" />
+    <item
+        android:id="@+id/add"
+        android:title="add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24" />
+    <item
+        android:id="@+id/college"
+        android:title="college"
+        android:icon="@drawable/ic_university" />
+
+
+</menu>
